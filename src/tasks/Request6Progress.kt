@@ -14,7 +14,7 @@ suspend fun loadContributorsProgress(
 
     val users = mutableListOf<User>()
 
-    for(index in repos.indices) {
+    for (index in repos.indices) {
         users.addAll(
             service
                 .getRepoContributors(req.org, repos[index].name)
