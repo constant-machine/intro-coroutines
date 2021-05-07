@@ -55,7 +55,7 @@ val progressResults = listOf(
     ),
     TestResults(
         3200, // 2000 + 1200
-        listOf(User(login = "user-2", contributions = 50), User(login = "user-1", contributions = 50))
+        listOf(User(login = "user-1", contributions = 50), User(login = "user-2", contributions = 50))
     ),
     expectedResults
 )
